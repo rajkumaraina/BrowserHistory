@@ -1,0 +1,65 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3367d6;
+  height: 55px;
+}
+.historyLogo {
+  width: 90px;
+  height: 30px;
+}
+.searchContainer {
+  background-color: #2850a7;
+  text-align: center;
+  padding: 3px;
+  margin: 3px;
+}
+.searchImg {
+  width: 22px;
+  height: 20px;
+  margin-top: 4px;
+}
+
+.inputContainer {
+  background-color: #2850a7;
+  text-align: center;
+  padding: 3px;
+  height: 35px;
+}
+.search_inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  color: #64748b;
+  background-color: #2850a7;
+  border-radius: 4px;
+  border: 0 none;
+  outline: none;
+  width: 300px;
+}
+.bottomContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin: 25px;
+  border-radius: 8px;
+}
+
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 555px;
+}
+.emptyMessage {
+  color: #64748b;
+  font-size: 30px;
+}

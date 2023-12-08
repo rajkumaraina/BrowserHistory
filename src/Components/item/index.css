@@ -1,0 +1,50 @@
+.listItem {
+  list-style-type: none;
+  margin: 5px;
+}
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.para {
+  color: #475569;
+  margin: 8px;
+  margin-right: 20px;
+}
+.websiteLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.websiteContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.img {
+  width: 20px;
+  height: 20px;
+}
+.title {
+  margin: 8px;
+}
+.domainUrl {
+  color: #64748b;
+}
+.deleteImg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  outline: none;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  border: 0px none;
+}
